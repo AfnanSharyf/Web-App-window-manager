@@ -88,7 +88,7 @@ if __name__ == "__main__":
     global app
     app = QtWidgets.QApplication(sys.argv) 
     w = MainWindow()
-    app.setApplicationName("Screen Manager")
+    app.setApplicationName("Screen Manager ")
     app.setWindowIcon(QIcon('favicon.ico'))
     w.show()   
     sys.exit(app.exec_())
